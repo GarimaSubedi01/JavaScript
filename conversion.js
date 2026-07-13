@@ -32,3 +32,28 @@ console.log(typeof string);
 //Boolean:
 // 1 => true; 0 => false
 //"" => false; "anytext" => true;
+
+// **********************************Operations**************************************
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2/3);
+console.log(2%3)
+console.log(2*3);
+console.log(2**3);
+
+let str1 = "Garima"
+let str2 = " Subedi"
+
+let str3 = str1+str2
+console.log(str3);
+
+console.log("1" + 2); //12
+console.log(2 + 3 + "2"); //52
+console.log("1" + 2 + 3); //123
+
+
