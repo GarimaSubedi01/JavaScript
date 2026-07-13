@@ -16,6 +16,3 @@ console.log(typeof 20);
 console.log(typeof null);
 console.log(typeof "Garima");
 console.log(typeof undefined);
-
-
-
