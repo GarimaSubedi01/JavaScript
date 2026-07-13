@@ -10,7 +10,7 @@ let roll = null; //object
 //number => 2^53
 //bigint
 //null => standalone value
-// symbol => used in  react for uniqueness
+//symbol => used in  react for uniqueness
 
 console.log(typeof 20);
 console.log(typeof null);
