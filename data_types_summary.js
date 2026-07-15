@@ -24,3 +24,23 @@ const myFunction = function(){
     
 }
 console.log(typeof myFunction);
+
+//Stack (primitive) => copy of actual value, Heap (non primitive)=> reference of the value
+
+let captain = "monkeydluffy"
+let sencho = "shanks"
+console.log(captain);
+
+console.log(sencho);
+
+let sh1 = {
+    name: "zoro",
+    position : "swordsman"
+}
+let sh2 = sh1
+
+sh2.position = "vicecaptain"
+
+console.log(sh1.position);
+console.log(sh2.position);
+
