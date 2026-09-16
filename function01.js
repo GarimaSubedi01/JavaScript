@@ -62,3 +62,12 @@ function returnSecondValue(getArray){
     return getArray[1]
 }
 console.log(returnSecondValue(myNewArray));
+
+(function hello(){
+    console.log("hi im garima");
+    
+})(); //named iife
+
+((name)=>{
+    console.log(`im strawhat ${name}`);
+    })("luffy"); //unnamed iife
